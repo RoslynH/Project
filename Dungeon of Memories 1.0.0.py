@@ -487,3 +487,4 @@ def game_over(ending_message):
     
     
 start_game()
+print("Welcome to the 'Dungeon of Memories'")
