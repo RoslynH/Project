@@ -291,6 +291,8 @@ def fight_enemy(room_name, enemy):
 
 
 def opening() :
+    print("Welcome to the 'Dungeon of Memories'")
+    print()
     print("Hello! Welcome to the world!")
     print("Adventuer, what is your name?")
     player['name'] = input("Please input your name: ")
@@ -487,4 +489,3 @@ def game_over(ending_message):
     
     
 start_game()
-print("Welcome to the 'Dungeon of Memories'")
